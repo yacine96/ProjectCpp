@@ -1,6 +1,7 @@
 #include "AnalyticPricer.h"
 #include "AnalyticPricer.h"
 
+//
 AnalyticPricer::AnalyticPricer(double T, int N): T(T), N(N), hm(Heston_Model())
 {
 }
